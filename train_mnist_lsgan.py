@@ -107,7 +107,7 @@ try:
         summary_writer.add_summary(g_summary_opt, it)
 
         # display
-        if it % 1 == 0:
+        if it % 100 == 0:
             print("Epoch: (%3d) (%5d/%5d)" % (epoch, it_epoch, batch_epoch))
 
         # save
